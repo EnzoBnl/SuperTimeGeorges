@@ -17,7 +17,7 @@ def ini():
     tjauge=time()
     listealpha={}
     for l in ["0","1","2","3","4","5","6","7","8","9","p1","p2","p3","p4","p5","p6","p7","p8","p9","p0"]:
-        listealpha[l]=pygame.transform.scale(pygame.image.load("Alpha\\"+l+".png").convert_alpha(), (60, 60))
+        listealpha[l]=pygame.transform.scale(pygame.image.load("Alpha/"+l+".png").convert_alpha(), (60, 60))
     bg = pygame.image.load("f1.png").convert()
     bg2 = pygame.image.load("f2.png").convert()
     bgbg=pygame.image.load("ff.png").convert()
